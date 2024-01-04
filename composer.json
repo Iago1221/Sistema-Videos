@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "testes\\": "testes/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.17",
+        "symfony/cache": "^7.0",
+        "doctrine/annotations": "^2.0",
+        "firebase/php-jwt": "^6.10"
+    }
+}
